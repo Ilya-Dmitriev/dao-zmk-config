@@ -31,8 +31,8 @@
 
         default_layer {
             bindings = <
-&trans            &kp Q  &kp W  &kp E        &kp R            &kp T        &kp Y        &kp U           &kp I        &kp O    &kp P      &trans
-&mt LCTRL GRAVE   &kp A  &kp S  &kp D        &kp F            &kp G        &kp H        &kp J           &kp K        &kp L    &kp SEMI   &mt RCTRL SQT
+&kp LEFT_ALT      &kp Q  &kp W  &kp E        &kp R            &kp T        &kp Y        &kp U           &kp I        &kp O    &kp P      &kp LEFT_BRACKET
+&kp GRAVE         &kp A  &kp S  &kp D        &kp F            &kp G        &kp H        &kp J           &kp K        &kp L    &kp SEMI   &kp SINGLE_QUOTE
 &kp LEFT_CONTROL  &kp Z  &kp X  &kp C        &kp V            &kp B        &kp N        &kp M           &kp COMMA    &kp DOT  &kp QMARK  &kp RIGHT_CONTROL
                                 &lt RSE TAB  &mt LSHFT SPACE  &lt LWR RET  &lt LWR ESC  &mt RSHFT BSPC  &lt RSE DEL
             >;
@@ -40,8 +40,8 @@
 
         lower_layer {
             bindings = <
-&trans        &kp AMPERSAND    &kp DOLLAR   &kp PIPE       &kp LPAR          &kp RPAR           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK  &kp PLUS   &trans
-&trans        &kp AT_SIGN      &kp PERCENT  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &kp EQUAL  &trans
+&none         &kp AMPERSAND    &kp DOLLAR   &kp PIPE       &kp LPAR          &kp RPAR           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK  &kp PLUS   &none
+&none         &kp AT_SIGN      &kp PERCENT  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &kp EQUAL  &none
 &kp LEFT_ALT  &kp EXCLAMATION  &kp CARET    &kp SLASH      &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp CARET     &kp MINUS  &kp RALT
                                             &to 3          &trans            &trans             &trans        &trans        &to 3
             >;
@@ -49,10 +49,10 @@
 
         raise_layer {
             bindings = <
-&trans  &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS  &kp PRINTSCREEN  &kp HOME  &kp UP_ARROW    &kp PG_UP  &trans  &kp CLCK
-&trans  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS   &trans           &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
-&trans  &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT    &trans           &kp END   &trans          &kp PG_DN  &trans  &trans
-                                    &trans     &trans     &mo 3         &mo 3            &trans    &trans
+&none  &none  &none  &none   &none   &none  &none  &kp HOME  &kp UP_ARROW    &kp PG_UP  &none   &kp CLCK
+&none  &none  &none  &none   &none   &none  &none  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &none   &none
+&none  &none  &none  &none   &none   &none  &none  &kp END   &trans          &kp PG_DN  &trans  &none
+                     &trans  &trans  &mo 3  &mo 3  &trans    &trans
             >;
         };
 
