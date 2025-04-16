@@ -41,7 +41,7 @@
         lower_layer {
             bindings = <
 &none         &kp AMPERSAND    &kp DOLLAR   &kp PIPE       &kp LPAR          &kp RPAR           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK  &kp PLUS   &none
-&none         &kp AT_SIGN      &kp PERCENT  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &kp EQUAL  &none
+&kp MINUS     &kp AT_SIGN      &kp PERCENT  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &kp EQUAL  &none
 &kp LEFT_ALT  &kp EXCLAMATION  &kp CARET    &kp SLASH      &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp CARET     &kp MINUS  &kp RALT
                                             &to 3          &trans            &trans             &trans        &trans        &to 3
             >;
